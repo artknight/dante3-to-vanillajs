@@ -14,7 +14,7 @@ import Dante, {
 	SpeechToTextBlockConfig,
 } from 'dante3'
 
-APP.Dante3 = class {
+var DANTE3 = class {
 	ref;
 	constructor(data={}) {
 		this.ref = React.createRef();
